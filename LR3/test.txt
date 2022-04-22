@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Gukai lab3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/tstyle07.css" rel="stylesheet">
+    </head>
+    <body>
+        <table width="700" bgcolor="plum" border="1"
+        align="center">
+                <caption>Три Разновидности варенья</caption>
+                <tr> <align="center" valign="middle"><th colspan="13"><font size="5">Малиновое варенье</font></th></tr>
+            <tr><th>&nbsp;</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th><th>Jul</th><th>Aug</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dec</th></tr>
+            <tr><th>Сумма закупки материалов</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th></tr>
+            <tr><th>Сумма заработной платы на выпуск</th><th>5000?</th><th>5000?</th><th>7000?</th><th>5000?</th><th>5000?</th><th>5000?</th><th>5000?</th><th>5000?</th><th>5000?</th><th>5000?</th><th>5000?</th><th>6000?</th></tr>
+            <tr><th>Сумма продажи</th><th>35000?</th><th>37000?</th><th>31000?</th><th>27000?</th><th>34000?</th><th>35000?</th><th>33000?</th><th>36000?</th><th>28000?</th><th>29000?</th><th>33000?</th><th>39000?</th></tr>
+            <tr><th>Сумма прибыли</th><th>15000?</th><th>27000</th><th>21000</th><th>17000</th><th>24000</th><th>25000</th><th>23000</th><th>23000</th><th>27000</th><th>19000</th><th>23000</th><th>29000</th></tr>
+            <tr><th>Процент наценки</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th></tr>
+                <tr> <align="center" valign="middle"><th colspan="13"><font size="5">Клубничное варенье</font></th></tr>
+            <tr><th>&nbsp;</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th><th>Jul</th><th>Aug</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dec</th></tr>
+            <tr><th>Сумма закупки материалов</th><th>15000?</th><th>16000?</th><th>13000?</th><th>15000?</th><th>18000?</th><th>13000?</th><th>15000?</th><th>15000?</th><th>11000?</th><th>14000?</th><th>13000?</th><th>20000?</th></tr>
+            <tr><th>Сумма заработной платы на выпуск</th><th>5000?</th><th>6500?</th><th>7500?</th><th>5800?</th><th>6100?</th><th>6000?</th><th>5000?</th><th>5300?</th><th>5000?</th><th>5060?</th><th>5000?</th><th>4600?</th></tr>
+            <tr><th>Сумма продажи</th><th>35000?</th><th>37000?</th><th>31000?</th><th>27000?</th><th>34000?</th><th>35000?</th><th>33000?</th><th>36000?</th><th>28000?</th><th>29000?</th><th>33000?</th><th>39000?</th></tr>
+            <tr><th>Сумма прибыли</th><th>15000?</th><th>21000</th><th>25000</th><th>26000</th><th>17000</th><th>23000</th><th>21000</th><th>22500</th><th>17000</th><th>23000</th><th>17000</th><th>26000</th></tr>
+            <tr><th>Процент наценки</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th></tr>
+                <tr> <align="center" valign="middle"><th colspan="13"><font size="5">Шишковое варенье</font></th></tr>
+            <tr><th>&nbsp;</th><th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th><th>Jul</th><th>Aug</th><th>Sep</th><th>Oct</th><th>Nov</th><th>Dec</th></tr>
+            <tr><th>Сумма закупки материалов</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th><th>10000?</th></tr>
+             <tr><th>Сумма заработной платы на выпуск</th><th>5000?</th><th>6500?</th><th>7500?</th><th>5800?</th><th>6100?</th><th>6000?</th><th>5000?</th><th>5300?</th><th>5000?</th><th>5060?</th><th>5000?</th><th>4600?</th></tr>
+            <tr><th>Сумма продажи</th><th>35000?</th><th>37000?</th><th>31000?</th><th>27000?</th><th>34000?</th><th>35000?</th><th>33000?</th><th>36000?</th><th>28000?</th><th>29000?</th><th>33000?</th><th>39000?</th></tr>
+            <tr><th>Сумма прибыли</th><th>15000?</th><th>21000</th><th>25000</th><th>26000</th><th>17000</th><th>23000</th><th>21000</th><th>22500</th><th>17000</th><th>23000</th><th>17000</th><th>26000</th></tr>
+            <tr><th>Процент наценки</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th><th>300%</th></tr>
