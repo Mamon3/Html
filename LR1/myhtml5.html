@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Решение квадратного уравнения</title>
+</head>
+
+<body bgcolor="B0E0E6">
+<h1 align="center">Решение квадратного уравнения</h1>
+<i>ax<SUP>2</SUP>+bx+c=0</i> 
+<h2>Математическая формула решения</h2>
+<img src="https://волшебныйлес.рф/800/600/https/megaformula.ru/wp-content/uploads/2018/12/325525345.png" width=30%>
+
+
+<h2>Алгоритм решения уравнения на языке программирования Pascal</h2>
+<code><pre>
+program QuadraticEquation;
+var
+  a, b, c, x1, x2, discriminant : real;
+begin
+  write('a = ');
+  readln(a);
+  write('b = ');
+  readln(b);
+  write('c = ');
+  readln(c);
+  
+  discriminant := sqr(b) - 4 * a * c;  
+
+  if discriminant < 0 then
+    writeln('Квадратное уравнение не имеет корней')
+  else
+    begin
+      if discriminant = 0 then
+        begin
+          x1 := -b / (2 * a);
+          x2 := x1;
+        end
+       else
+         begin
+           x1 := (-b + sqrt(discriminant)) / (2 * a);
+           x2 := (-b - sqrt(discriminant)) / (2 * a);
+         end;
+       
+       writeln('x1 = ', x1:8:3);
+       writeln('x2 = ', x2:8:3);
+     end;
+  writeln('Press Enter to Exit...');
+  readln;
+end.
+</code> </pre>
+
+<h2>Алгоритм решения уравнения на языке программирования C++</h2>
+<code><pre>
+
+#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+using namespace std;
+ 
+int main()
+{
+    double a;
+    double b;
+    double c;
+    double x;
+    cout << "Введите значение a: ";
+    cin >> a;
+    cout << "Введите значение b: ";
+    cin >> b;
+    cout << "Введите значение c: ";
+    cin >> c;
+    if((b*b - 4*a*c) >= 0) //Если дискриминант больше или равен 0
+    {
+        x = ( -1*b + sqrt(b*b - 4*a*c) ) / (2 * a);
+        cout << "Первый корень равен " << x << endl;
+        x = ( -1*b - sqrt(b*b - 4*a*c) ) / (2 * a);
+        cout << "Второй корень равен " << x << endl;
+    }
+    else
+    {
+        cout << "Дискриминант меньше 0, корни невещественные." << endl;
+    }
+ 
+    return 0;
+}
+</code></pre>
+
+<h2>Пример решения квадратного уравнения</h2>
+<i>2x<sup>2</sup>-6x+9=0</i>
+<br><i>D=b<sup>2</sup>-4ac=0</i>
+<br>D=(-6)<sup>2</sup>-4&times;2&times;9=36-72=-36&lt;0
+<br><b>Ответ:</b> <ins>нет решений</ins>
+</body>
+
+</html>
