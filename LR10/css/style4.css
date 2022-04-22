@@ -1,0 +1,11 @@
+body {
+  display: flex;
+}
+aside {
+   width: 20vw;
+   background-color: aqua;
+}
+main {
+  flex: 1;
+  background-color: antiquewhite;
+}

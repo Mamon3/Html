@@ -1,0 +1,11 @@
+.form {
+  display: flex
+}
+.form_field {
+   flex: 1;
+   margin:10px 0px 10px 0px;
+}
+.form_item{
+    background-color: aqua;
+    margin:10px 0px 10px 0px;
+}

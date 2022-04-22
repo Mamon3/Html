@@ -1,0 +1,24 @@
+.row_cell {
+   flex: 1
+}
+.row {
+   display: flex;
+}
+.row_cell--1 {
+    background-color: aqua;
+}
+.row_cell--2 {
+    background-color: antiquewhite;
+}
+.row_cell--3 {
+    background-color: beige;
+}
+.row_cell--4 {
+    background-color: burlywood;
+}
+.row_cell--5 {
+    background-color: blueviolet;
+}
+.row_cell--6 {
+    background-color: brown;
+}
